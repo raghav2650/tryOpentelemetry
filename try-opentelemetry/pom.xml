@@ -14,7 +14,7 @@
 	<name>try-opentelemetry</name>
 	<description>Demo project for Spring Boot try open telemetry</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -36,6 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>try-opentelemetry</finalName>
 	</build>
 
 </project>
